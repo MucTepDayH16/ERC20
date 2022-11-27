@@ -1,6 +1,6 @@
 {
   "name": "@muctep/erc20",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "MucTepDayH16",
   "publishConfig": {
     "access": "public"
