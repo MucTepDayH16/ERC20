@@ -12,10 +12,7 @@
     "contracts/*.sol",
     "contracts/**/*.sol"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "truffle-assertions": "^0.9.2",
+  "dependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@nomiclabs/hardhat-truffle5": "^2.0.6",
     "@nomiclabs/hardhat-web3": "^2.0.0",
@@ -27,8 +24,11 @@
     "truffle": "^5.5.19",
     "web3": "^1.7.4"
   },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "truffle-assertions": "^0.9.2"
+  },
   "scripts": {
-    "prepare": "hardhat compile",
     "compile": "hardhat compile",
     "test": "hardhat test"
   }
