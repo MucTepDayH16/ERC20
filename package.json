@@ -34,6 +34,7 @@
     "web3": "^1.7.4"
   },
   "scripts": {
+    "prepare": "hardhat compile",
     "compile": "hardhat compile",
     "test": "hardhat test"
   }
